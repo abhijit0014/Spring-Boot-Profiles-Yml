@@ -1,0 +1,20 @@
+spring:
+  profiles:
+    active: "dev"
+  main:
+    banner-mode: "off"
+
+---
+spring:
+  profiles: dev
+employee:
+  name: dev-server
+  id: 12345-dev
+
+---
+
+spring:
+  profiles: prod
+employee:
+  name: prod-server
+  id: 12345-prod
